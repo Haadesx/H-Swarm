@@ -1,5 +1,7 @@
 # HealthTwin by H-Swarm
 
+![HealthTwin Demo Video](./docs/demo.webp)
+
 HealthTwin is a healthcare-native decision workspace for provider operators and capital stakeholders.
 It is designed around one core use case: helping health systems understand what breaks first when
 reimbursement pressure, denial intensity, labor strain, and covenant sensitivity begin to move at the
