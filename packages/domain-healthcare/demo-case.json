@@ -1,0 +1,23 @@
+{
+  "projectName": "MetroCare Reimbursement Cut",
+  "scenarioType": "reimbursement_cut",
+  "simulationRequirement": "Stress-test how a 7% reimbursement cut affects MetroCare's hospital and clinic network over 30, 90, and 180 days, including throughput, care access, covenant pressure, and investor sentiment.",
+  "organization": {
+    "name": "MetroCare Health System",
+    "region": "Mid-Atlantic",
+    "careSetting": "Regional hospital and outpatient clinic network"
+  },
+  "assumptions": [
+    "Medicare reimbursement declines by 7% starting next quarter.",
+    "Commercial payers partially follow with tighter utilization review.",
+    "Labor costs remain elevated and vacancy rates do not materially improve in the first 90 days.",
+    "Existing debt covenants tighten lender tolerance if EBITDA weakens further."
+  ],
+  "kpis": [
+    { "name": "Operating Margin", "baseline": 2.4, "unit": "%" },
+    { "name": "Days Cash on Hand", "baseline": 108, "unit": "days" },
+    { "name": "Nursing Vacancy Rate", "baseline": 14, "unit": "%" },
+    { "name": "Elective Procedure Throughput", "baseline": 100, "unit": "index" },
+    { "name": "Payer Denial Rate", "baseline": 8.2, "unit": "%" }
+  ]
+}

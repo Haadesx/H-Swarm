@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+apps/api/app/data/
+apps/api/.env
+apps/web/.env
+.playwright-cli/

@@ -1,0 +1,4 @@
+instrument,lender,balance_millions,covenant,threshold,current_status
+Term Loan A,Summit Regional Bank,120.0,minimum_ebitda_margin,1.8,watch
+Revenue Bond Facility,Atlantic Public Finance,180.0,days_cash_on_hand,95,compliant
+Working Capital Line,North Harbor Credit,45.0,fixed_charge_coverage_ratio,1.15,watch

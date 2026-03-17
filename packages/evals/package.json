@@ -1,0 +1,6 @@
+{
+  "name": "@hswarm/evals",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evaluation helpers and acceptance fixtures for HealthTwin"
+}

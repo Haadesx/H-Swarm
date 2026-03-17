@@ -1,0 +1,29 @@
+{
+  "name": "hswarm-healthtwin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "HealthTwin fresh healthcare decision twin workspace",
+  "workspaces": [
+    "apps/web",
+    "packages/evals",
+    "packages/domain-healthcare",
+    "packages/engine"
+  ],
+  "scripts": {
+    "dev": "concurrently --kill-others -n \"api,web\" -c \"green,cyan\" \"npm run api\" \"npm run web\"",
+    "api": "cd apps/api && uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8100",
+    "web": "cd apps/web && npm run dev",
+    "build": "npm run build:web",
+    "build:web": "cd apps/web && npm run build",
+    "test:api": "cd apps/api && uv run pytest",
+    "setup:web": "npm install",
+    "setup:api": "cd apps/api && uv sync",
+    "setup": "npm run setup:web && npm run setup:api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
