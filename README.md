@@ -83,6 +83,9 @@ falls back to deterministic logic without breaking the user workflow.
 - [Operator Workflow](./docs/operator-workflow.md)
 - [Technical Setup](./docs/technical-setup.md)
 - [Architecture Note](./docs/architecture-note.md)
+- [Live Demo Script](./docs/live-demo-script.md)
+- [Video Storyboard](./docs/video-storyboard.md)
+- [Positioning Brief](./docs/positioning-brief.md)
 
 ## Buyer Positioning
 
